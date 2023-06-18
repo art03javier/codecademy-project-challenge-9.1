@@ -1,0 +1,182 @@
+/* Universal Styles */
+
+html, body {
+    width: 100%;
+}
+
+h3 {
+    font-size: 30px;
+    margin: auto;
+    padding: 20px;
+    color: black;
+}
+
+/* Header Section */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Kanit', cursive;
+    background-color: rgb(118 119 121);
+}
+
+header img{
+    height: 120px;
+
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 900;
+    margin-right: auto;
+
+}
+
+
+
+nav {
+    display: flex;
+    align-content: center;
+
+}
+
+ul {
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    background-color: rgb(118 119 121);
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    border-bottom: 4px solid red
+}
+    
+
+li {
+    list-style: none;
+    margin: auto;
+    margin-right: 20px;
+    font-size: 24px;
+    
+}
+
+
+/* Main Section */
+
+main {
+    font-family: 'Roboto', cursive;
+}
+
+
+/* Mission Section */
+
+#mission {
+    background-image: url('https://img.grouponcdn.com/deal/3qC1ggve1t9iY62n1bP3Y2bTYvqm/3q-960x576/v1/c870x524.webp');
+    background-size: cover;
+    min-height: 500px;
+    text-align: center;
+    color: whitesmoke;
+    font-style: bold;
+    font-size: 46px;
+    font-family: "Kanit";
+}
+
+p {
+    background-color: rgb(118 119 121);
+    opacity: 0.8;
+    color: white;
+    width: fit-content;
+}
+
+
+
+/* About Us Section */
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #e5e5fa;
+    background-image: repeating-linear-gradient(45deg, rgba(106, 109, 101, 0.142) 0 1rem, transparent 1.1rem 2.1rem), 
+                      repeating-linear-gradient(135deg, rgba(55, 58, 50, 0.119) 0 1rem, transparent 1.1rem 2.1rem);
+    color: white;
+}
+
+img {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+    border: 10px double orange;
+}
+
+
+.content {
+    z-index: 10;
+    text-align: center;
+  
+}
+
+.browsing,.gaming,.digital-printing,.photo-video {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    min-width: 300px;
+}
+
+#about h2, #staff h2 {
+    color: black;
+    font-size: 46px;
+    font-family: "Kanit";
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Meet the Staff Section */
+
+figure {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Contact Us Section */
+
+#contact {
+    font-size: 20px;
+}
+
+/* Footer Section */
+
+address {
+    background-color: rgb(118 119 121);
+    opacity: 0.8;
+    width: fit-content;
+    color: white;
+    display: flex;
+    margin-right: auto;
+}
+
+footer {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
