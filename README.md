@@ -1,7 +1,6 @@
-# codecademy-project-challenge-9.1
-an implementation of codecademy project challenge to build a Company home page with flexbox.
+
 Project Goals
-In this project, I'll be using flexbox to design and build the layout for a company’s homepage. I can choose to build a new homepage for an existing company or imagine my own dream company!​
+In this project, I used flexbox to design and build the layout for a company’s homepage. I choose to build a new homepage for an imaginary company!​
 This project include:
 1. A title and logo or splash image.
 2. A mission statement or brief description of the company.
